@@ -1,11 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            /* largura */
+            width: 1600px;
+            /* Para unir as linhas entre as células */
+            border-collapse: collapse;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #ddd;
+            font-size: 16px;
+            padding: 8px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            height: 30px;
+            vertical-align: middle;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .total {
+            background-color: grey;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <h1>População dos Estados Brasileiros - 2024</h1>
+
+    <table>
+        <tr>
+            <td><strong>Estado</strong></td>
+            <td><strong>População</strong></td>
+            <td><strong>Comando HTML utilizado</strong></td>
+        </tr>
+        <tr>
+            <td><strong>Acre</strong></td>
+            <td class="right"><mark>830.018</mark></td>
+            <td><strong>`Negrito`</strong> e <mark>`Destacado`</mark></td>
+        </tr>
+        <tr>
+            <td><em>Alagoas</em></td>
+            <td class="right">3.365.351</td>
+            <td><em>`Itálico`</em></td>
+        </tr>
+        <tr>
+            <td><u>Amapá</u></td>
+            <td class="right">877.613</td>
+            <td><u>`Texto sublinhado`</u></td>
+        </tr>
+        <tr>
+            <td><u><del>Amazonas</del></u></td>
+            <td class="right"><u>4.269.995</u></td>
+            <td><del>`Texto riscado`</del> e <u>`Texto sublinhado`</u></td>
+        </tr>
+        <tr>
+            <td><sup>Bahia</sup></td>
+            <td class="right">14.141.626</td>
+            <td><sup>`Texto sobrescrito`</sup></td>
+        </tr>
+        <tr>
+            <td><abbr title="Ceará">CE</abbr></td>
+            <td class="right">9.240.580</td>
+            <td><abbr title="abreviação">`Abreviação`</abbr></td>
+        </tr>
+        <tr>
+            <td><strong>Distrito Federal</strong></td>
+            <td class="right">3.098.883</td>
+            <td><strong>`Texto em negrito`</strong></td>
+        </tr>
+        <tr>
+            <td><q>Espírito Santo</q></td>
+            <td class="right">4.108.508</td>
+            <td><q>`Citação curta`</q></td>
+        </tr>
+        <tr>
+            <td>Goiás</td>
+            <td class="right">7.206.589</td>
+            <td>`Citação de fonte`</td>
+        </tr>
+        <tr>
+            <td><code>Maranhão</code></td>
+            <td class="right">6.775.805</td>
+            <td><code>`Texto monoespaçado`</code></td>
+        </tr>
+        <tr>
+            <td><pre>Mato Grosso</pre></td>
+            <td class="right">3.658.813</td>
+            <td><pre><br>`<br>Texto pré-formatado<br>`<br></pre></td>
+        </tr>
+        <tr>
+            <td><small>Paraíba</small></td>
+            <td class="right">4.059.905</td>
+            <td><small>`Texto pequeno`</small></td>
+        </tr>
+        <tr>
+            <td>Piauí</td>
+            <td class="right">3.281.480</td>
+            <td>`Texto <sub>subscrito</sub>`</td>
+        </tr>
+        <tr>
+            <td><blockquote>Rio de Janeiro</blockquote></td>
+            <td class="right">16.054.524</td>
+            <td>`<br><blockquote>Citação em bloco</blockquote>`<br></td>
+        </tr>
+        <tr>
+            <td><strong>Rio Grande do Sul</strong></td>
+            <td class="right">10.882.965</td>
+            <td><strong>`Negrito`</strong></td>
+        </tr>
+        <tr>
+            <td><em>Rondônia</em></td>
+            <td class="right">1.616.379</td>
+            <td><em>`Itálico`</em></td>
+        </tr>
+        <tr>
+            <td><mark>Roraima</mark></td>
+            <td class="right"><mark>636.707</mark></td>
+            <td><mark>`Texto destacado`</mark></td>
+        </tr>
+        <tr>
+            <td><abbr title="Tocantins">TO</abbr></td>
+            <td class="right">1.607.363</td>
+            <td>`Abreviação`</td>
+        </tr>
+        <tr>
+            <td class="total"><strong>Total da população estimada:</strong></td>
+            <td class="right total">Soma total</td>
+            <td class="total">Realizar a soma das colunas</td>
+        </tr>
+    </table>
+
 </body>
 </html>
